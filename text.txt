@@ -1,0 +1,126 @@
+// import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+
+// export const fetchCrypto = createAsyncThunk('crypto/fetchCrypto', async () => {
+//   const response = await fetch('https://api.coinstats.app/public/v1/coins');
+//   const data = await response.json();
+//   return data;
+// });
+
+// const initialState = {
+//   crypto: [
+//     {
+//       id: 'bitcoin',
+//       name: 'Bitcoin',
+//       symbol: 'BTC',
+//       rank: 1,
+//     },
+//   ],
+//   selectedCoin: [],
+//   loading: false,
+//   error: null,
+// };
+
+// const cryptoSlice = createSlice({
+//   name: 'crypto',
+//   initialState,
+//   reducers: {
+//     addCoin: (state, action) => {
+//       const newCoin = state.crypto.filter((coin) => {
+//         return coin.id === action.payload;
+//       });
+//       state.selectedCoin = newCoin;
+//     },
+//   },
+//   extraReducers: (builder) => {
+//     builder.addCase(fetchCrypto.pending, (state) => {
+//       state.loading = true;
+//     });
+//     builder.addCase(fetchCrypto.fulfilled, (state, action) => {
+//       state.loading = false;
+//       state.crypto = action.payload.coins;
+//     });
+//     builder.addCase(fetchCrypto.rejected, (state, action) => {
+//       state.loading = false;
+//       state.error = action.error.message;
+//     });
+//   },
+// });
+
+// export const { addCoin } = cryptoSlice.actions;
+
+// export default cryptoSlice.reducer;
+
+
+
+
+LAYOUT
+
+
+const [query, setQuery] = useState('');
+  const dispatch = useDispatch();
+
+  const { crypto, status } = useSelector((state) => state.crypto);
+  console.log(crypto);
+
+  const handleChange = (e) => {
+    setQuery(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    dispatch(addCoin(query));
+  };
+
+  return (
+    <div className="coinLayout">
+      <div className="search">
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="Search" onChange={handleChange} />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <div className="coinList">
+        {status === 'loading' && <div>Loading...</div>}
+        {status === 'succeeded' &&
+          crypto.map((coin) => (
+            <div className="coin" key={coin.id}>
+              <Link to={`/coin/${coin.id}`}>
+                <div className="coinName">
+                  <img src={coin.icon} alt={coin.id} />
+                  <h3>{coin.name}</h3>
+                </div>
+                <div className="coinSymbol">
+                  <h3>{coin.symbol}</h3>
+                </div>
+              </Link>
+            </div>
+          ))}
+      </div>
+    </div>
+
+
+
+
+
+    const initialState = {
+  crypto: [
+    {
+      id: 'bitcoin',
+      name: 'Bitcoin',
+      symbol: 'BTC',
+    },
+  ],
+};
+
+// Reducer
+const cryptoReducer = createSlice({
+  name: 'crypto',
+  initialState,
+  reducers: (builder) => {
+    builder.addCase(addcoin, (state, action) => {
+      state.crypto.push(action.payload);
+    });
+  },
+});
+export const cryptoActions = cryptoReducer.actions;
+export default cryptoReducer.reducer;
