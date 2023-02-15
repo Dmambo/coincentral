@@ -9,8 +9,7 @@ const Navbar = () => (
     <div className="Logo">
       <Link to="/">
         <h1>
-          COIN
-          <span>CENTRAL</span>
+          COIN-CENTRAL
         </h1>
       </Link>
     </div>

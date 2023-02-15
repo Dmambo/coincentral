@@ -28,13 +28,20 @@
 
 # 📖 BOOK STORE <a name="about-project"></a>
 
-> THIS IS A REACT-REDUX PROJECT APP
+> This is a crypto-currency website that uses coingecko api to fetch coin details
 
-**[BOOK STORE]** BOOK STORE
+![mobile Home version](./mobileHome.JPG)
+![mobile Detail version](./mobileDetails.JPG)
+![mobile showMore](./showMore.JPG)
+![desktop version](./desktopHome.JPG)
+![desktop version](./desktopDetail.JPG)
+
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
-REACT
+REACT REACT-REDUX JEST
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -44,9 +51,9 @@ REACT
 
 ### Key Features <a name="key-features"></a>
 
-- **[ADD BOOK TO STORE]**
+- **[SEARCH FOR CRYPTO]**
 
-  - [Description] ADD BOOK TO STORE AND GET BOOKS FROM API
+  - [Description] ABILITY TO SEARCH FOR CRYPTO
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,9 +61,9 @@ REACT
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Site is still in production and can't be deployed for now
+> Here is a DEMO link to site and a video recording of me explaining the site
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://coincentral.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +90,7 @@ clone this repository into your desired folder
 
 ```sh
   cd my-folder
-  https://github.com/Dmambo/bookstores.git
+  https://github.com/Dmambo/coincentral
 ```
 --->
 
@@ -95,7 +102,7 @@ Install this project with:
 download the packages
 
 ```sh
-  cd bookstores
+  cd coincentral
   npm install
 ```
 install other dependencies
@@ -131,15 +138,9 @@ Example command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Future Features -->
-
-## 🔭 Future Features <a name="Future Features"></a>
-
-> Add future features that you plan to implement in the project.
-
 - **[CONNECT TO API]**
 
-  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE BOOKS FROM THE API
+  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE COINS FROM THE API
 
 <!-- CONTRIBUTING -->
 
