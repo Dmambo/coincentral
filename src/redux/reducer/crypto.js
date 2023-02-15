@@ -1,13 +1,11 @@
+/* eslint-disable no-param-reassign */
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchCoin = createAsyncThunk('crypto/fetch_coin', async () => {
   const response = await fetch('https://api.coingecko.com/api/v3/coins/');
   const data = await response.json();
-  console.log(data);
   return data;
 });
-
-// const addcoin = createAction('crypto/add_coin');
 
 // Initial state
 const initialState = {
@@ -28,7 +26,7 @@ const cryptoReducer = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      .addCase(fetchCoin.pending, (state, action) => {
+      .addCase(fetchCoin.pending, (state) => {
         state.status = 'loading';
       })
       .addCase(fetchCoin.fulfilled, (state, action) => {
