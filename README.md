@@ -65,6 +65,7 @@ REACT REACT-REDUX JEST
 
 - [Live Demo Link](https://coincentral.onrender.com)
 
+-[Live Demo Video](https://www.loom.com/share/46dee996a92647e8a9cb15bf3599fa5f)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

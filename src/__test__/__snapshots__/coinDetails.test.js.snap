@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders coinDetails component 1`] = `
+<DocumentFragment>
+  <div>
+    No coin selected
+  </div>
+</DocumentFragment>
+`;
