@@ -1,8 +1,16 @@
 .footer {
-  /* background-color: #000; */
-  color: #000000;
+  background-color: #dd4883;
+  color: #000;
   padding: 10px;
   text-align: center;
   font-size: 15px;
   position: static;
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: none;
+  }
 }
