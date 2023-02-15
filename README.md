@@ -139,10 +139,6 @@ Example command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **[CONNECT TO API]**
-
-  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE COINS FROM THE API
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -167,9 +163,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank sakwadesignstudio the author of the original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
