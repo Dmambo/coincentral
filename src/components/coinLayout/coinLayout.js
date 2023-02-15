@@ -50,10 +50,13 @@ const CoinLayout = () => {
               className="feature-coin__img"
             />
             <div className="feature-coin__details">
-              <h2 className="feature-coin__name">{filteredCoins[0].name}</h2>
-              <h4 className="feature-coin__symbol">
+              <h2 className="feature-coin__name">
+                {filteredCoins[0].name}
+                {' '}
+                (
                 {filteredCoins[0].symbol}
-              </h4>
+                )
+              </h2>
               <h4 className="feature-coin__price">
                 {filteredCoins[0].market_data.current_price.usd}
               </h4>
