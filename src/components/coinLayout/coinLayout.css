@@ -27,7 +27,7 @@
 }
 
 .feature-coin img {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .feature-coin__details {
@@ -157,7 +157,6 @@ form input {
   }
 
   form input {
-  
     width: 200px;
   }
 }

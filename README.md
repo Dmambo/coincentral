@@ -65,6 +65,7 @@ REACT REACT-REDUX JEST
 
 - [Live Demo Link](https://coincentral.onrender.com)
 
+-[Live Demo Video](https://www.loom.com/share/46dee996a92647e8a9cb15bf3599fa5f)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -85,44 +86,34 @@ NODE.JS INSTALLED
 
 Clone this repository to your desired folder:
 
-<!--
-clone this repository into your desired folder
 
-```sh
-  cd my-folder
-  https://github.com/Dmambo/coincentral
-```
---->
+- cd my-folder
+- git clone git@github.com:Dmambo/coincentral.git
+- cd coincentral
+
 
 ### Install
 
 Install this project with:
 
-<!--
-download the packages
 
-```sh
   cd coincentral
   npm install
-```
+
+
 install other dependencies
 
-```sh
+
 npm i --save-dev
-```
---->
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
-```sh
+
   npm start
-```
---->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,10 +129,6 @@ Example command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **[CONNECT TO API]**
-
-  - [Description] WOULD BE ABLE TO CONNECT TO API TO GET THE COINS FROM THE API
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -156,9 +143,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please star the repository
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,9 +151,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank [sakwadesignstudio](https://www.behance.net/sakwadesignstudio) the author of the original [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,15 +159,14 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[What are the technology used]**
 
-  - [Answer_1]
+  - [REACT, REDUX and JEST for testing]
 
-- **[Question_2]**
+- **[What features are there]**
 
-  - [Answer_2]
+  - [You can search for coin and also view the details of any coin]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +175,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

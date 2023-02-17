@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CoinLayout component 1`] = `
+<DocumentFragment>
+  <div
+    class="coin-app"
+  >
+    <h2
+      class="allCoins"
+    >
+      <div
+        class="coin-search"
+      >
+        <h4
+          class="coin-text"
+        >
+          Search
+        </h4>
+        <form>
+          <input
+            class="coin-input"
+            placeholder="Search"
+            type="text"
+            value=""
+          />
+        </form>
+      </div>
+    </h2>
+    <div
+      class="grid-coin"
+    >
+      <p>
+        No coins found
+      </p>
+    </div>
+    <button
+      class="showBtn"
+      type="button"
+    >
+      Show More
+    </button>
+  </div>
+</DocumentFragment>
+`;

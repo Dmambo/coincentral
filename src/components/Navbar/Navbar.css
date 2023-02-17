@@ -12,7 +12,7 @@ a {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-.Logo h1{
+.Logo h1 {
   font-size: 1rem;
 }
 
@@ -36,4 +36,3 @@ span {
   padding: 0.2rem;
   border-radius: 50%;
 }
-
